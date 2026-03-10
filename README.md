@@ -795,7 +795,7 @@ Before committing to the self-biased current mirror, the full BGR loop is verifi
   <img src="prelayout_results/bgr_using_ideal_opamp.png" alt="BGR with Ideal Op-Amp Simulation Result">
 </p>
 
-#### Transient Analysis
+#### Supply Voltage Sweep
 
 <p align="center">
   <img src="prelayout_results/bgr_using_ideal_opamp_1_trans.png" alt="BGR with Ideal Op-Amp Simulation Result">
