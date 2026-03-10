@@ -795,6 +795,12 @@ Before committing to the self-biased current mirror, the full BGR loop is verifi
   <img src="prelayout_results/bgr_using_ideal_opamp.png" alt="BGR with Ideal Op-Amp Simulation Result">
 </p>
 
+#### Transient Analysis
+
+<p align="center">
+  <img src="prelayout_results/bgr_using_ideal_opamp_1_trans.png" alt="BGR with Ideal Op-Amp Simulation Result">
+</p>
+
 ---
 
 #### BGR with SBCM — Typical (TT corner)
@@ -814,6 +820,11 @@ The self-biased current mirror replaces the ideal op-amp. Expected result:
   <img src="prelayout_results/bgr_lvt_rpolyh_3p40_V_ref.png" alt="BGR SBCM V ref Result">
 </p>
 
+#### Transient Analysis
+
+<p align="center">
+  <img src="prelayout_results/bgr_lvt_rpolyh_3p40_1__trans.png" alt="BGR SBCM V ref Result">
+</p
 ---
 
 #### BGR — Fast-Fast (FF) Corner
@@ -829,6 +840,12 @@ Tempco ≈ **10 ppm/°C** (best case — process corners tend to improve tempco 
 </p>
 <p align="center">
   <img src="prelayout_results/bgr_lvt_rpolyh_3p40_ff_V_ref.png" alt="BGR FF Corner Simulation Result">
+</p>
+
+#### Transient Analysis
+
+<p align="center">
+  <img src="prelayout_results/bgr_lvt_rpolyh_3p40_ff_1_trans.png" alt="BGR FF Corner Simulation Result">
 </p>
 
 ---
@@ -848,6 +865,12 @@ Tempco ≈ **45 ppm/°C** (worst case — still within the 50 ppm/°C specificat
   <img src="prelayout_results/bgr_lvt_rpolyh_3p40_ss_V_ref.png" alt="BGR SS Corner Simulation Result">
 </p>
 
+#### Transient Analysis
+
+<p align="center">
+  <img src="prelayout_results/bgr_lvt_rpolyh_3p40_ss_1_trans.png" alt="BGR SS Corner Simulation Result">
+</p>
+
 ---
 
 #### BGR — Supply Variation
@@ -863,6 +886,12 @@ VDD swept from 1.62 V to 1.98 V (±10%). V_REF should remain stable, validating 
 </p>
 <p align="center">
   <img src="prelayout_results/bgr_lvt_rpolyh_3p40_var_supply_V_ref.png" alt="BGR Supply Variation Simulation Result">
+</p>
+
+#### Transient Analysis
+
+<p align="center">
+  <img src="prelayout_results/bgr_lvt_rpolyh_3p40_var_supply_1_trans.png" alt="BGR Supply Variation Simulation Result">
 </p>
 
 ---
